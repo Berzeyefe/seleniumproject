@@ -24,6 +24,7 @@ public class T1_Alert_Practices {
 
         //2. Go to website: https://practice.cydeo.com/javascript_alerts
         driver.get("https://practice.cydeo.com/javascript_alerts");
+
     }
 
     @Test
@@ -51,6 +52,7 @@ public class T1_Alert_Practices {
         String actualText = resultText.getText();
 
         Assert.assertEquals(actualText, expectedText, "Actual result text is not as expected!!!");
+
     }
 
 
