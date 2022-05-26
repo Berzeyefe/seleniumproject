@@ -18,6 +18,7 @@ public class T5_Windows_Practice {
     WebDriver driver;
 
 
+
     @BeforeMethod
     public void setupMethod(){
         //1. Open browser
@@ -27,6 +28,7 @@ public class T5_Windows_Practice {
 
         //2. Go to website: https://practice.cydeo.com/windows
         driver.get("https://practice.cydeo.com/windows");
+
     }
 
     @Test
