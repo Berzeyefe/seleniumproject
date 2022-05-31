@@ -11,6 +11,9 @@ public class JavaFakerPractice {
     Faker faker = new Faker();
 
         System.out.println("faker.name().firstName() = " + faker.name().firstName());
+        System.out.println("faker.name().lastName() = " + faker.name().lastName());
+        System.out.println("faker.name().fullName() = " + faker.name().fullName());
+
     }
 
 }
