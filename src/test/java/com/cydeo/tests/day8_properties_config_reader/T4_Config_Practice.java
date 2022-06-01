@@ -24,6 +24,7 @@ public class T4_Config_Practice {
 //
 //    }
 
+
     @Test
     public void google_search_test(){
         //Driver.getDriver() --> driver
@@ -41,6 +42,7 @@ public class T4_Config_Practice {
         String actualTitle = Driver.getDriver().getTitle();
 
         Assert.assertEquals(actualTitle, expectedTitle);
+
     }
 
 }
