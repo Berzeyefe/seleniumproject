@@ -35,7 +35,6 @@ public class ExplicitWaitPractices {
         BrowserUtils.waitForInvisibilityOf(dynamicControlsPage.loadingBar);
 
         //5- Verify:
-
         //a. Checkbox is not displayed
 
         try {

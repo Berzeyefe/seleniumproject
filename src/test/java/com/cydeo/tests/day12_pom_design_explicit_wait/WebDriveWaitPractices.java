@@ -64,4 +64,3 @@ public class WebDriveWaitPractices {
         Assert.assertTrue(dynamicLoad1Page.errorMessage.isDisplayed());
     }
 }
-
