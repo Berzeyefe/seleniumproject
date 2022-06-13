@@ -60,4 +60,7 @@ public class Driver {
         return driver;
 
     }
+
+    public static void closeDriver() {
+    }
 }
